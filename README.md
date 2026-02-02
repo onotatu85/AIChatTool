@@ -3,8 +3,15 @@
 ローカル環境で動作するLLM（大規模言語モデル）を活用した、セキュリティ重視の社内向け課題管理・チャット支援ツールです。
 「社外にデータを漏らさずにAIを活用したい」というニーズに応えるため、Ollamaを用いてローカルLLM（Qwen2.5等）と連携し、登録された課題データに基づいた回答を生成するRAG（Retrieval-Augmented Generation）機能を実装しています。
 
-![Dashboard Screen](https://placehold.co/800x400/1e293b/ffffff?text=Dashboard+Preview)
-*(※実際の画面キャプチャをここに配置予定)*
+![Dashboard Screen](docs/images/dashboard.png)
+
+## 📸 スクリーンショット
+
+### 課題一覧画面
+![Issue List](docs/images/issue_list.png)
+
+### AIチャット画面
+![AI Chat](docs/images/chat.png)
 
 ## 🚀 主な機能
 
